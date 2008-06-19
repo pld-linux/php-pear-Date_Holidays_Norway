@@ -1,0 +1,11 @@
+--- Date_Holidays_Norway-0.1.0/usr/share/pear/Date/Holidays/Driver/Norway.php~	2008-06-19 21:37:20.022483907 +0200
++++ Date_Holidays_Norway-0.1.0/usr/share/pear/Date/Holidays/Driver/Norway.php	2008-06-19 21:48:19.592418313 +0200
+@@ -24,7 +24,7 @@
+  */
+ 
+ 
+-require_once 'Christian.php';
++require_once 'Date/Holidays/Driver/Christian.php';
+ 
+ /**
+  * Driver class that calculates Norwegian holidays
