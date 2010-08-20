@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Driver based class to calculate holidays in Norway
 Summary(pl.UTF-8):	%{_pearname} - klasa do obliczania świąt norweskich
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
+Version:	0.1.2
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7cb426b8acd4213b8346e9248a602607
+# Source0-md5:	c738a117733fe3e05c5db91430934d56
 Patch0:		%{name}-paths.patch
 URL:		http://pear.php.net/package/Date_Holidays_Norway/
 BuildRequires:	php-pear-PEAR
@@ -39,8 +39,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
