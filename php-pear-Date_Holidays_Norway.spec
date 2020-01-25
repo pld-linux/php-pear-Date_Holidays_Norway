@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Date
 %define		_subclass	Holidays_Norway
 %define		_status		alpha
